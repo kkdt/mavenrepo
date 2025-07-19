@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sscweb",
+    "module": "sscweb-java-client",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sscweb-java-client-1.0.jar",
+          "url": "sscweb-java-client-1.0.jar",
+          "size": 79020,
+          "sha512": "fc5ffac0b5b6c00ac8cee4db56defe6902f4a31633d5607e66dd20016a1ca1ad97961c61399c0136b64f73ac40cf4e3ff9bc179054acbc3e2bfdc0922011eaa4",
+          "sha256": "359f8e76694e88dd110b1a497642ae53640e162a7f6d84a32a0fa216a3900a14",
+          "sha1": "508f96e80aa924136841ade97ff7ec4712c51cc3",
+          "md5": "1a5c81475dff5c39d179fc358a7b6932"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.sun.xml.ws",
+          "module": "jaxws-ri",
+          "version": {
+            "requires": "2.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sscweb-java-client-1.0.jar",
+          "url": "sscweb-java-client-1.0.jar",
+          "size": 79020,
+          "sha512": "fc5ffac0b5b6c00ac8cee4db56defe6902f4a31633d5607e66dd20016a1ca1ad97961c61399c0136b64f73ac40cf4e3ff9bc179054acbc3e2bfdc0922011eaa4",
+          "sha256": "359f8e76694e88dd110b1a497642ae53640e162a7f6d84a32a0fa216a3900a14",
+          "sha1": "508f96e80aa924136841ade97ff7ec4712c51cc3",
+          "md5": "1a5c81475dff5c39d179fc358a7b6932"
+        }
+      ]
+    }
+  ]
+}
