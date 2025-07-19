@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kkdt.generictable",
+    "module": "swing-generictable",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "swing-generictable-1.0.jar",
+          "url": "swing-generictable-1.0.jar",
+          "size": 8932,
+          "sha512": "e0a993fa1099aefe373d234ad4ed93c45a57739a3522ff221ecbb3103a9a333c3ac9c65a1ef534b7dea1148fe6e36c3295ffdfbdda5ab47084724a67ad36f1d1",
+          "sha256": "e066a28317002fe3205ea8aa9666bad820b6ffb734588f060ba32ecbaa8c6f97",
+          "sha1": "c16595b294c280fc132db5e06c1a335b54b4c698",
+          "md5": "14e5675cee6a44512704fe2dd054fb1d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "swing-generictable-1.0.jar",
+          "url": "swing-generictable-1.0.jar",
+          "size": 8932,
+          "sha512": "e0a993fa1099aefe373d234ad4ed93c45a57739a3522ff221ecbb3103a9a333c3ac9c65a1ef534b7dea1148fe6e36c3295ffdfbdda5ab47084724a67ad36f1d1",
+          "sha256": "e066a28317002fe3205ea8aa9666bad820b6ffb734588f060ba32ecbaa8c6f97",
+          "sha1": "c16595b294c280fc132db5e06c1a335b54b4c698",
+          "md5": "14e5675cee6a44512704fe2dd054fb1d"
+        }
+      ]
+    }
+  ]
+}
